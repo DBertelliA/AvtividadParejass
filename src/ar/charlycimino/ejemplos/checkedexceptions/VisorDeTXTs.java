@@ -19,5 +19,6 @@ public class VisorDeTXTs {
         File elArchivo = new File(ruta);        
         BufferedReader br = new BufferedReader(new FileReader(elArchivo));
         System.out.println( br.readLine());
+        br.close();
     }
 }
