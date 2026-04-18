@@ -22,7 +22,7 @@ public class Test2 {
             z = x / y;
             System.out.println("Resultado: " + z);
         }
-        catch (Exception ex) {
+        catch (NumberFormatException e) {
             System.out.println("Ocurrió un error");
         }
         System.out.println("Adiós");
